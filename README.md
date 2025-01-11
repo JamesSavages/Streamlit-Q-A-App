@@ -1,9 +1,9 @@
 # Streamlit Question & Answering App
 
 ### Project Description
-Welcome to our project! This is a question and answering app in Python and Streamlit, as well as the Chroma Vector Database. It all allows a user to easily load a file (txt, pdf, docx) and ask questions related to that file. The LLM will output answers for the questions asked about this file loaded. Streamlit is used to craft a front end UI, which provides an intuitive, easy to use application.  
+Welcome to our project! This is a question and answering app, that uses a combination of Python, Streamlit and the Chroma Vector Database. It allows a user to easily load a file (txt, pdf, docx) and ask questions related to that file. The LLM will output answers related to questions asks about the file loaded. Streamlit is used to craft a front end UI, which provides an intuitive, easy to use application.  
 
-This project Retrieval-Augmented Generation (RAG) which is a is a technique that combines language models (OpenAI in this case) with information retrieval mechanisms to improve text generation. Instead of relying only on data learned by the model, RAG retrieves relevant information from external sources, such as documents or databases, to provide more accurate and reliable answers. RAG heavily used in the Generative AI space, due to its capcabilities to:
+This project uses Retrieval-Augmented Generation (RAG) which is a is a technique that combines language models (OpenAI in this case) with information retrieval mechanisms to improve text generation. Instead of relying only on data learned by the model, RAG retrieves relevant information from external sources, such as documents or databases, to provide more accurate and reliable answers. RAG is heavily used in the Generative AI space, due to its capcabilities to:
 
 1. Reduce hallucinations -  RAG uses retrieval systems to access verified information from external sources in real time, reducing the likelihood of hallucinations and increasing the reliability of responses
 2. Domain knowledge -  RAG enables the integration of domain-specific data from external sources, improving the accuracy and relevance of responses
@@ -23,3 +23,11 @@ create_embeddings - a function using OpenAIEmbeddings to convert the chunks to v
 #### 4. Question & Answering
 ask_and_get_answer - function to retrieve data from the vector store, which is then passed to the LLM. Similarity Search is applied, which compares the numerical vectors (embeddings) of the query and the 
 documents to find the most similar ones via KNN.
+
+### Using this App
+
+1. Fork the repository.
+2. Open in your local IDE - Visual Studio recommended.
+3. Update the .env file with your OpenAI Key.
+4. In the terminal, run - streamlit run question - **streamlit run .\questioning_app.py**
+
