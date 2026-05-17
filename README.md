@@ -29,5 +29,5 @@ documents to find the most similar ones via KNN.
 1. Fork the repository.
 2. Open in your local IDE - Visual Studio recommended.
 3. Update the .env file with your OpenAI Key.
-4. In the terminal, run - streamlit run question - **streamlit run .\questioning_app.py**
+4. In the terminal, execute the following to open app **streamlit run PATH**
 
