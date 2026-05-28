@@ -1,7 +1,7 @@
 # Streamlit Question & Answering App
 
 ### Project Description
-Welcome to our project! This is a question and answering app, that uses a combination of Python, Streamlit and the Chroma Vector Database. It allows a user to easily load a file (txt, pdf, docx) and ask questions related to that file. The LLM will output answers related to questions asks about the file loaded. Streamlit is used to craft a front end UI, which provides an intuitive, easy to use application.  
+Welcome to our project! This is a question and answering app, that uses a combination of Python, Streamlit and the Chroma Vector Database. It allows a user to easily load a file (txt, pdf, docx) and ask questions related to that file. The LLM will output answers related to questions asked about the file loaded. Streamlit is used to craft a front end UI, which provides an intuitive, easy to use application.  
 
 This project uses Retrieval-Augmented Generation (RAG) which is a is a technique that combines language models (OpenAI in this case) with information retrieval mechanisms to improve text generation. Instead of relying only on data learned by the model, RAG retrieves relevant information from external sources, such as documents or databases, to provide more accurate and reliable answers. RAG is heavily used in the Generative AI space, due to its capcabilities to:
 
